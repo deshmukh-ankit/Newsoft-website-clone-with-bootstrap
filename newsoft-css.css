@@ -1,0 +1,199 @@
+.hero-section {
+    background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 1rem;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: tomato;
+    text-shadow: 1px 1px white;
+    transition: 1s;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+ul .active{
+    color: yellow;
+    text-decoration: underline;
+}
+.nav-link:hover {
+    color: tomato;
+    text-decoration: underline 2px solid white;
+    transition: 1s;
+}
+
+.fa-search {
+    font-size: 1.5rem;
+    margin: .8rem;
+}
+
+.hero-caption {
+    font-size: 2.5rem;
+}
+
+.carousel-inner .carousel-item .card {
+    background-color: rgba(255, 255, 255, 0);
+    margin-bottom: 3rem;
+}
+
+.hero-discription {
+    font-size: 1.05rem;
+}
+
+.card-img-bottom {
+    width: 50%;
+    height: 40%;
+}
+
+.btn-warning {
+    width: 10rem;
+    color: white;
+    margin: 1.2rem;
+    padding: .5rem;
+    border-radius: .5rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    font-weight: bold;
+}
+
+.about-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about-section h1,
+.feature-section h1,
+.contact-section h1 {
+    margin-bottom: 3rem;
+    font-weight: 400;
+}
+
+.work-img {
+    margin: 3rem;
+    background-color: rgb(33, 96, 135);
+    padding: 1.2rem;
+    border: 1rem solid rgb(125, 198, 249);
+    
+}
+
+.who-section {
+    background-color: slateblue;
+}
+
+.who-img {
+    position: relative;
+    right: 2rem;
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: white;
+}
+
+
+
+.who-text {
+    text-align: right;
+}
+
+.who-text .card-text {
+    margin-left: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: lighter;
+}
+
+.who-text .btn {
+    margin-right: 0%;
+}
+
+.feature-section {
+    padding: 2rem;
+}
+
+.feature-img {
+    background-color: rgb(33, 96, 135);
+    padding: 3rem;
+    height: 10em;
+    border-radius: 5%;
+}
+.feature-text{
+    text-align: justify;
+}
+.feature-img img {
+    width: 80%;
+    height: 80%;
+}
+
+.feature-section .card-title {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    border: none;
+}
+
+.contact-section .card-body {
+    background-color: slateblue;
+    height: 28rem;
+    padding-right: 15em;
+}
+
+.card-body form {
+    text-align: right;
+}
+
+.card-body form input {
+    height: 2rem;
+    padding: 1em;
+    font-size: larger;
+    width: 15em;
+    margin-left: 1rem;
+}
+
+.card-body form .text-box {
+    height: 5rem;
+}
+
+.card-body form .btn {
+    margin-left: 140px;
+}
+.info-section ul{
+    list-style-type: none;
+}
+.info-section ul li{
+    font-size: 1.1rem;
+}
+.info-section h4 span{
+    font-size: 1.4rem;
+    border-bottom: 2px solid rgb(255, 169, 71);
+}
+.col-2 h5{
+    text-align: right;
+    font-size: 1.6rem;
+}
+.col-md-4 input{
+    width: 100%;
+    height: 2.5rem;
+    font-size: larger;
+    padding-left: .5rem;
+}
+.col-md-2 input{
+    width: 80%;
+    height: 2.5rem;
+    font-size: larger;
+    background-color: rgb(189, 210, 27);
+    color: white;
+}
